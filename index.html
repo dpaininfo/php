@@ -8,11 +8,26 @@
 </head>
 <body>
   
-    <form action="mult.php" method="post">
-        Saisissez un nombre :<br>
-        <input type="text" name="nb"><input type="submit" value="Ok">
-    </form>
+  <h2>Formulaire HTML</h2>
 
+  <form method="get" action="script.php">
+  
+      <fieldset>
+  
+          <legend>Informations personnelles</legend>
+  
+          Prénom :
+            <input type="text" id="txtprenom" name="txtprenom"><br><br>
+            Nom : 
+            <input type="text" id="txtnom" name="txtnom"><br><br>
+            J'accepte les conditions
+            <input type="checkbox" id="accepte" name="accepte">
+  
+      </fieldset>
+  
+      <input type="submit" value="Envoyer">
+  
+  </form>
 
 </body>
 </html>    
