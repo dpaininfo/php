@@ -1,10 +1,7 @@
 <?php
-
 // Connexion au serveur
-
 try {
-
-  $dns = 'mysql:host=localhost;dbname=mabd'; // dbname : nom de la base
+  $dns = 'mysql:host=localhost;dbname=test'; // dbname : nom de la base
   $utilisateur = 'root'; // root sur vos postes
   $motDePasse = ''; // pas de mot de passe sur vos postes
   $connexion = new PDO( $dns, $utilisateur, $motDePasse );
